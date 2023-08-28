@@ -1,0 +1,248 @@
+
+form 
+{
+    background: linear-gradient(#8e8ca3,#343b42 );
+    /*background-color: #343b42*/
+    padding: 20px;
+    
+}
+
+font
+{
+    color: #f3f3f3;
+    font-style:italic;
+}
+#portada{
+    margin-top: 2.5cm;
+}
+
+/*------------------------reporte-----------------*/
+#comprasR{ /*general*/
+    text-align: center;
+    margin-left: .5cm;
+    border-color: #0c092e;
+}
+#holaR{
+    margin-top: 1cm;
+    margin-bottom: .5cm;
+    margin-left: .5cm;
+    margin-right: .5cm;
+}
+#jj{
+    text-align: center;
+}
+
+#editar{
+  
+    background: linear-gradient(#e61069,#181327 );
+    border: 1px solid rgb(209, 12, 78);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration:dashed;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    
+ 
+}
+
+#editar:hover{
+  
+    background: linear-gradient(#72354e,#181327 );
+    border: 1px solid rgb(209, 12, 78);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration:dashed;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    
+ 
+}
+
+
+#eliminar{
+  
+    background: linear-gradient(#64024c,#181327 );
+    border: 1px solid rgb(209, 12, 78);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration:dashed;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    
+ 
+}
+
+#eliminar:hover{
+  
+    background: linear-gradient(#72354e,#181327 );
+    border: 1px solid rgb(209, 12, 78);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;        
+    text-align: center;
+    text-decoration:dashed;
+    display: inline-block;
+    font-size: 10px;
+    transition-duration: 0.4s;
+    
+ 
+}
+
+
+/*  espacios de lineas(---) *-----------------------------------------------------------------------------------------*/
+#uno
+{
+    opacity: 0;
+    color:#343b42 ;
+}
+
+/*  espacios de lineas(---) dentro de div cliente */
+#dos
+{
+    color:#454B52 ;
+}
+
+
+/*  div de vendedor --------------------------------------------------------------------------------------------------*/
+#infovendedor
+{
+    background-color: #424c56;
+}
+
+/* div de cliente  -----------------------------------------------------------------------------------------------------*/
+#infocliente
+{
+    background-color: #424c56;
+}
+
+/* div Tabla de carrito ---------------------------------------------------------------------------------------------------*/
+
+
+/* div Tabla de ventas de vendedores  ----------------------------------------------------------------------------------*/
+#grupo
+{
+    background-color: #424c56;
+
+}
+
+/* tabla de ventas de vendedor  ----------------------------------------------------------------------------------------- */
+#tres{/*1er fila*/
+    text-align: center;
+    background-color:#524656;
+}
+
+#cuatro{/*2da fila*/
+    text-decoration:double;
+    text-align: center;
+    background-color:#72577c;
+    color: #292E33;
+}
+#tablavendedor{ /*general*/
+    background-color: #8e8ca3;
+    margin-left: 6cm;
+    color: #f5f5f5;
+    text-align: center;
+    
+}
+
+
+/* tabla de carrito--- ----------------------------------------------------------------------------------------- */
+#seis{/*1er fila*/
+    text-align: center;
+    background-color:#72577c;
+    color: #f5f5f5;
+}
+
+#ocho{/*1er fila*/
+    text-align: center;
+    background-color:#72577c;
+    color: #f5f5f5;
+}
+
+
+#tablaCarrito{ /*general*/
+    background-color: #8e8ca3;
+    margin-left: 3cm;
+    color: #f5f5f5;
+    text-align: center;
+    
+}
+
+/*---------------------------*/
+#agregar{
+  
+    background: linear-gradient(#e61069,#181327 );
+    border: 1px solid rgb(209, 12, 78);
+    color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration:dashed;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+ 
+}
+
+#agregar:hover{
+  
+    background: linear-gradient(#72354e,#181327 );
+    border: 1px solid rgb(209, 12, 78);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration:dashed;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+
+
+
+#quitar{
+  
+    background: linear-gradient(#e61069,#181327 );
+    border: 1px solid rgb(209, 12, 78);
+    color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration:dashed;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    
+ 
+}
+
+#quitar:hover{
+  
+    background: linear-gradient(#72354e,#181327 );
+    border: 1px solid rgb(209, 12, 78);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration:dashed;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    
+ 
+}
+
+
+
+
+
